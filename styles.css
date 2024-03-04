@@ -1,0 +1,68 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  padding: 40px;
+}
+
+.d_flex {
+  display: flex;
+}
+
+.detail_infor {
+  display: flex;
+}
+.title_detail {
+  margin-right: 50px;
+}
+.image_avatar {
+  width: 80px;
+  height: 120px;
+}
+.infor_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.detail_infor_wrapper {
+  line-height: 30px;
+}
+.underline {
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+}
+.space_bottom {
+  margin-bottom: 40px;
+}
+.infor_education {
+  display: flex;
+}
+.infor_year_education {
+  margin-right: 100px;
+}
+.infor_skill {
+  display: flex;
+}
+.infor_name_skill {
+  margin-right: 150px;
+}
+.hyper_links {
+  text-decoration: none;
+}
